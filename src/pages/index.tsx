@@ -1,3 +1,4 @@
+import Button from '@/components/Button'
 import Head from 'next/head'
 
 export default function Home() {
@@ -12,15 +13,7 @@ export default function Home() {
       <main className="max-w-[1080px] mx-auto p-4">
         <h1 className="text-center text-3xl">Hello Sentry</h1>
 
-        <button
-          type="button"
-          className="border px-2 py-1 bg-slate-300"
-          onClick={() => {
-            throw new Error('Sentry Frontend Error')
-          }}
-        >
-          エラーを発生させるボタン
-        </button>
+        <Button>エラーを発生させるボタン</Button>
       </main>
     </>
   )
