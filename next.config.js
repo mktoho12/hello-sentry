@@ -17,7 +17,6 @@ module.exports = withSentryConfig(
   },
   {
     hideSourcemaps: true,
-    disableClientWebpackPlugin: true,
     disableServerWebpackPlugin: true,
   }
 )
