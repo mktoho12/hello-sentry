@@ -12,5 +12,3 @@ init({
 
   environment: process.env.NEXT_PUBLIC_ENVIRONMENT,
 })
-
-console.log({ side: 'client', env: process.env.NEXT_PUBLIC_ENVIRONMENT })

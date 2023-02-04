@@ -14,7 +14,7 @@ module.exports = withSentryConfig(
 
   // SentryWebpackPluginOptions
   {
-    silent: true,
+    // silent: true,
   },
 
   // UserSentryOptions
