@@ -9,15 +9,16 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-
 module.exports = withSentryConfig(
   nextConfig,
+
+  // SentryWebpackPluginOptions
   {
     silent: true,
   },
+
+  // UserSentryOptions
   {
-    hideSourcemaps: true,
-    disableClientWebpackPlugin: true,
-    disableServerWebpackPlugin: true,
+    hideSourceMaps: true,
   }
 )
