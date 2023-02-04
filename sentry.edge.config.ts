@@ -1,5 +1,2 @@
-import { init } from '@sentry/nextjs'
-
-init({
-  enabled: false,
-})
+// Not used on server side
+import './sentry.client.config.ts'
