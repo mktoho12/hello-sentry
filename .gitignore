@@ -38,8 +38,5 @@ next-env.d.ts
 # Sentry
 .sentryclirc
 
-# Sentry
-next.config.original.js
-
 # dotenv environment variables file
 .env
