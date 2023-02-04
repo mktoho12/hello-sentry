@@ -11,6 +11,15 @@ export default function Home() {
       </Head>
       <main>
         <h1 className="text-center text-3xl">Hello Sentry</h1>
+
+        <button
+          type="button"
+          onClick={() => {
+            throw new Error('Sentry Frontend Error')
+          }}
+        >
+          Throw error
+        </button>
       </main>
     </>
   )
