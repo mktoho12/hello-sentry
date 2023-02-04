@@ -20,6 +20,11 @@ export default function Home() {
         >
           Throw error
         </button>
+
+        <h2>環境変数漏れてないかチェック</h2>
+        <p>SENTRY_DSN: {process.env.SENTRY_DSN}</p>
+        <p>NEXT_PUBLIC_SENTRY_DSN: {process.env.NEXT_PUBLIC_SENTRY_DSN}</p>
+        <p>{JSON.stringify(process.env)}</p>
       </main>
     </>
   )
